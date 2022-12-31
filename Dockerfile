@@ -10,6 +10,8 @@ RUN apt-get update && \
 
 COPY package.json .
 
+RUN yarn add @adiwajshing/baileys
+
 COPY . .
 
 EXPOSE 5000
