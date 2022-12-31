@@ -1076,7 +1076,7 @@ limitabis = `*[LIMIT KAMU HABIS]*\nBeli limit di ${prefix}buylimit atau beli pre
 if (isAutoai) {
  if (checklimitUser(sender) <= 0) return reply(limitabis) 
 try {
-if (setting.keyopenai === 'ISI_APIKEY_OPENAI_DISINI') return reply('Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys')
+if (setting.keyopenai === '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') return reply('Apikey belum diisi\n\nSilahkan isi terlebih dahulu apikeynya di file key.json\n\nApikeynya bisa dibuat di website: https://beta.openai.com/account/api-keys')
 const configuration = new Configuration({
 apiKey: setting.keyopenai,
 });
