@@ -10,8 +10,6 @@ RUN apt-get update && \
 
 COPY package.json .
 
-RUN node main.js
-
 COPY . .
 
 EXPOSE 5000
